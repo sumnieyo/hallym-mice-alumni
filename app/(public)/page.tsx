@@ -5,6 +5,7 @@ import { DirectoryPreview } from "@/components/landing/DirectoryPreview";
 import { FeatureSections } from "@/components/landing/FeatureSections";
 import { LandingCTA } from "@/components/landing/LandingCTA";
 import { LandingFooter } from "@/components/landing/LandingFooter";
+import { LandingThemeShell } from "@/components/landing/LandingThemeShell";
 import { createAdminClient } from "@/lib/supabase/admin";
 
 /**
@@ -55,16 +56,18 @@ export default async function LandingPage() {
   const counts = await getCounts();
 
   return (
-    <main className="bg-black text-white">
-      <Hero />
-      <div className="border-y border-white/10 bg-black py-6">
-        <Marquee items={MARQUEE} />
-      </div>
-      <StatsTeaser counts={counts} />
-      <DirectoryPreview />
-      <FeatureSections />
-      <LandingCTA />
-      <LandingFooter />
-    </main>
+    <LandingThemeShell>
+      <main className="bg-black text-white">
+        <Hero />
+        <div className="border-y border-white/10 bg-black py-6">
+          <Marquee items={MARQUEE} />
+        </div>
+        <StatsTeaser counts={counts} />
+        <DirectoryPreview />
+        <FeatureSections />
+        <LandingCTA />
+        <LandingFooter />
+      </main>
+    </LandingThemeShell>
   );
 }
