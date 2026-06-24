@@ -8,18 +8,18 @@ export function LandingFooter() {
       <div className="mx-auto flex max-w-screen-lg flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div className="landing-footer-logos flex flex-wrap items-center gap-6">
           <Image
-            src="/brand/hallym-university-logo.png"
+            src="/brand/hallym-university-emblem.png"
             alt="한림대학교"
-            width={177}
-            height={55}
-            className="h-[46px] w-auto object-contain sm:h-[50px]"
+            width={186}
+            height={186}
+            className="h-[72px] w-auto object-contain sm:h-[80px]"
           />
           <Image
             src="/brand/hallym-graduate-studies-signature.png"
             alt="한림국제대학원대학교"
             width={449}
             height={165}
-            className="h-[83px] w-auto object-contain sm:h-[90px]"
+            className="h-[53px] w-auto object-contain sm:h-[58px]"
           />
         </div>
         <p className="text-xs leading-relaxed text-white/50">
