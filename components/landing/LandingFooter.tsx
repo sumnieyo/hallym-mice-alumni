@@ -8,7 +8,7 @@ export function LandingFooter() {
       <div className="mx-auto flex max-w-screen-lg flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex flex-wrap items-center gap-5">
           <Image
-            src="/brand/hallym-graduate-studies-signature.gif"
+            src="/brand/hallym-graduate-studies-signature.png"
             alt="한림국제대학원대학교"
             width={449}
             height={165}
