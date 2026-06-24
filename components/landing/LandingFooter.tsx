@@ -19,7 +19,7 @@ export function LandingFooter() {
             alt="한림국제대학원대학교"
             width={449}
             height={165}
-            className="h-[138px] w-auto object-contain sm:h-[150px]"
+            className="h-[83px] w-auto object-contain sm:h-[90px]"
           />
         </div>
         <p className="text-xs leading-relaxed text-white/50">
