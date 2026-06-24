@@ -5,7 +5,18 @@ export function LandingFooter() {
   return (
     <footer className="border-t border-white/10 bg-black px-6 py-14 text-white">
       <div className="mx-auto flex max-w-screen-lg flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <p className="font-display text-xl tracking-tight">한림 MICE 동문</p>
+        <div className="flex flex-wrap items-center gap-5">
+          <img
+            src="/brand/hallym-graduate-studies-ci.jpg"
+            alt="한림국제대학원대학교"
+            className="h-12 w-12 rounded-full object-cover"
+          />
+          <img
+            src="/brand/hallym-university-logo.png"
+            alt="한림대학교"
+            className="h-8 w-auto object-contain"
+          />
+        </div>
         <p className="text-xs leading-relaxed text-white/50">
           시작하면{" "}
           <Link href="/terms" className="underline underline-offset-4 hover:text-white">
