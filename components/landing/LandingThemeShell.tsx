@@ -113,13 +113,6 @@ export function LandingThemeShell({ children }: { children: ReactNode }) {
           color: #ffffff !important;
         }
 
-        .landing-footer-logos {
-          border-radius: 8px;
-          background: rgba(255, 255, 255, 0.9);
-          padding: 10px 14px;
-          box-shadow: 0 18px 50px rgba(0, 0, 0, 0.18);
-        }
-
         [data-landing-theme="light"] .landing-footer {
           background: #f6efdf !important;
           border-color: rgba(23, 19, 12, 0.14) !important;
@@ -133,12 +126,6 @@ export function LandingThemeShell({ children }: { children: ReactNode }) {
 
         [data-landing-theme="light"] .landing-footer a:hover {
           color: #17130c !important;
-        }
-
-        [data-landing-theme="light"] .landing-footer-logos {
-          background: transparent;
-          padding: 0;
-          box-shadow: none;
         }
 
         .landing-cursor-glow {

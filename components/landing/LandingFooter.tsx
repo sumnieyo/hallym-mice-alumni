@@ -10,15 +10,15 @@ export function LandingFooter() {
           <Image
             src="/brand/hallym-university-emblem.png"
             alt="한림대학교"
-            width={186}
-            height={186}
+            width={193}
+            height={193}
             className="h-[72px] w-auto object-contain sm:h-[80px]"
           />
           <Image
             src="/brand/hallym-graduate-studies-emblem.png"
             alt="한림국제대학원대학교"
-            width={190}
-            height={190}
+            width={207}
+            height={207}
             className="h-[72px] w-auto object-contain sm:h-[80px]"
           />
         </div>
