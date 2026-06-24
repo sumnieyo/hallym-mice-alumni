@@ -15,11 +15,11 @@ export function LandingFooter() {
             className="h-[72px] w-auto object-contain sm:h-[80px]"
           />
           <Image
-            src="/brand/hallym-graduate-studies-signature.png"
+            src="/brand/hallym-graduate-studies-emblem.png"
             alt="한림국제대학원대학교"
-            width={449}
-            height={165}
-            className="h-[53px] w-auto object-contain sm:h-[58px]"
+            width={190}
+            height={190}
+            className="h-[72px] w-auto object-contain sm:h-[80px]"
           />
         </div>
         <p className="text-xs leading-relaxed text-white/50">
