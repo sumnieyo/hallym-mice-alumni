@@ -4,7 +4,7 @@ import Link from "next/link";
 /** 랜딩 푸터 — 다크. 약관/처리방침 동의 문구 보존(가입 고지 맥락). */
 export function LandingFooter() {
   return (
-    <footer className="border-t border-white/10 bg-black px-6 py-14 text-white">
+    <footer className="landing-footer border-t border-white/10 bg-black px-6 py-14 text-white">
       <div className="mx-auto flex max-w-screen-lg flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex flex-wrap items-center gap-5">
           <Image

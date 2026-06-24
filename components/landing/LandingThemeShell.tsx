@@ -92,6 +92,36 @@ export function LandingThemeShell({ children }: { children: ReactNode }) {
           stroke: rgba(115, 115, 115, 0.22);
         }
 
+        .landing-footer {
+          background: #eef1f4 !important;
+          border-color: rgba(255, 255, 255, 0.12) !important;
+          color: #172033 !important;
+        }
+
+        .landing-footer p,
+        .landing-footer a {
+          color: rgba(23, 32, 51, 0.68) !important;
+        }
+
+        .landing-footer a:hover {
+          color: #0a2f78 !important;
+        }
+
+        [data-landing-theme="light"] .landing-footer {
+          background: #f6efdf !important;
+          border-color: rgba(23, 19, 12, 0.14) !important;
+          color: #17130c !important;
+        }
+
+        [data-landing-theme="light"] .landing-footer p,
+        [data-landing-theme="light"] .landing-footer a {
+          color: rgba(23, 19, 12, 0.62) !important;
+        }
+
+        [data-landing-theme="light"] .landing-footer a:hover {
+          color: #17130c !important;
+        }
+
         .landing-cursor-glow {
           opacity: 1;
           transition: opacity 180ms ease;
