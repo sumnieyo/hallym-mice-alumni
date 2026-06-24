@@ -5,9 +5,9 @@ import { useReveal } from "@/lib/hooks/useReveal";
 const LANDING_STATS = [
   { figure: "1997", suffix: "", label: "설립연도" },
   // TODO: 공식 누적 동문 수 자료 확보 후 교체.
-  { figure: "500", suffix: "+", label: "동문 배출 수" },
+  { figure: "400", suffix: "+", label: "동문 배출 수" },
   // TODO: 전시-AI 트랙 컨소시엄 기업 수 확정 후 교체.
-  { figure: "20", suffix: "+", label: "컨소시엄 기업 수" },
+  { figure: "8", suffix: "+", label: "컨소시엄 기업 수" },
 ];
 
 /** 통계 띠 — 설립연도와 임시 네트워크 규모 지표. */
